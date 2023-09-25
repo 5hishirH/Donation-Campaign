@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/P1rKSrz/Rectangle-4284.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "description": "Clean water for children is a non-negotiable necessity. It's not just about quenching their thirst; it's a lifeline for their health and development. Access to uncontaminated water prevents waterborne diseases, allowing children to grow up stronger and more resilient. Furthermore, clean water promotes education by ensuring kids don't miss school due to illness. It's an investment in their future, empowering them to reach their full potential and make positive contributions to society. Ensuring clean water for every child is a moral imperative, a basic right, and a crucial step towards a healthier, more equitable world.",
+        "price": 290,
+        "cardBg": "#0052ff26",
+        "categoryBg": "#0052ff33",
+        "font_color": "#0052FF"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/ZW0NrcB/Rectangle-4287-1.png",
+        "category": "Education",
+        "title": "Good education",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290,
+        "cardBg": "#ff444a26",
+        "categoryBg": "#ff444a33",
+        "font_color": "#FF444A"
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/jLcHkS3/Rectangle-4287.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "description": "The Used Clothing Drive is a heartfelt initiative that embodies the spirit of generosity and sustainability. It involves collecting gently worn garments from individuals or communities and redistributing them to those in need. These drives not only provide clothing to individuals who may be struggling financially but also reduce textile waste and minimize the environmental impact of discarded clothing. They foster a sense of unity and empathy within communities, highlighting the power of collective goodwill. Through a Used Clothing Drive, we can extend a helping hand to those less fortunate while making a positive contribution to our planet by promoting the reuse of textiles.",
+        "price": 290,
+        "cardBg": "#79c23f26",
+        "categoryBg": "#79c23f33",
+        "font_color": "#79C23F"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/S0ktv3N/Rectangle-4287-2.png",
+        "category": "Food",
+        "title": "Better Food for Everyone",
+        "description": "The pursuit of 'Better Food for Everyone' is a mission that transcends mere sustenance. It's a commitment to nourishing bodies, minds, and communities alike. Access to wholesome, nutritious food should be a universal right, not a privilege. It's about addressing food insecurity, promoting sustainable agriculture, and ensuring that every individual, regardless of their socioeconomic background, has access to meals that foster health and well-being. This endeavor isn't just about satisfying hunger; it's about building healthier, more equitable societies where everyone can thrive and reach their full potential. It's a shared responsibility towards a brighter, more inclusive future.",
+        "price": 290,
+        "cardBg": "#f8714726",
+        "categoryBg": "#f8714733",
+        "font_color": "#F87147"
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/S0ktv3N/Rectangle-4287-2.png",
+        "category": "Food",
+        "title": "Better Food for Everyone",
+        "description": "The pursuit of 'Better Food for Everyone' is a mission that transcends mere sustenance. It's a commitment to nourishing bodies, minds, and communities alike. Access to wholesome, nutritious food should be a universal right, not a privilege. It's about addressing food insecurity, promoting sustainable agriculture, and ensuring that every individual, regardless of their socioeconomic background, has access to meals that foster health and well-being. This endeavor isn't just about satisfying hunger; it's about building healthier, more equitable societies where everyone can thrive and reach their full potential. It's a shared responsibility towards a brighter, more inclusive future.",
+        "price": 290,
+        "cardBg": "#f8714726",
+        "categoryBg": "#f8714733",
+        "font_color": "#F87147"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/jLcHkS3/Rectangle-4287.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "description": "The Used Clothing Drive is a heartfelt initiative that embodies the spirit of generosity and sustainability. It involves collecting gently worn garments from individuals or communities and redistributing them to those in need. These drives not only provide clothing to individuals who may be struggling financially but also reduce textile waste and minimize the environmental impact of discarded clothing. They foster a sense of unity and empathy within communities, highlighting the power of collective goodwill. Through a Used Clothing Drive, we can extend a helping hand to those less fortunate while making a positive contribution to our planet by promoting the reuse of textiles.",
+        "price": 290,
+        "cardBg": "#79c23f26",
+        "categoryBg": "#79c23f33",
+        "font_color": "#79C23F"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/ZW0NrcB/Rectangle-4287-1.png",
+        "category": "Education",
+        "title": "Good education",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290,
+        "cardBg": "#ff444a26",
+        "categoryBg": "#ff444a33",
+        "font_color": "#FF444A"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/P1rKSrz/Rectangle-4284.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "description": "Clean water for children is a non-negotiable necessity. It's not just about quenching their thirst; it's a lifeline for their health and development. Access to uncontaminated water prevents waterborne diseases, allowing children to grow up stronger and more resilient. Furthermore, clean water promotes education by ensuring kids don't miss school due to illness. It's an investment in their future, empowering them to reach their full potential and make positive contributions to society. Ensuring clean water for every child is a moral imperative, a basic right, and a crucial step towards a healthier, more equitable world.",
+        "price": 290,
+        "cardBg": "#0052ff26",
+        "categoryBg": "#0052ff33",
+        "font_color": "#0052FF"
+    },
+    {
+        "id": 9,
+        "image": "https://i.ibb.co/P1rKSrz/Rectangle-4284.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "description": "Clean water for children is a non-negotiable necessity. It's not just about quenching their thirst; it's a lifeline for their health and development. Access to uncontaminated water prevents waterborne diseases, allowing children to grow up stronger and more resilient. Furthermore, clean water promotes education by ensuring kids don't miss school due to illness. It's an investment in their future, empowering them to reach their full potential and make positive contributions to society. Ensuring clean water for every child is a moral imperative, a basic right, and a crucial step towards a healthier, more equitable world.",
+        "price": 290,
+        "cardBg": "#0052ff26",
+        "categoryBg": "#0052ff33",
+        "font_color": "#0052FF"
+    },
+    {
+        "id": 10,
+        "image": "https://i.ibb.co/ZW0NrcB/Rectangle-4287-1.png",
+        "category": "Education",
+        "title": "Good education",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 290,
+        "cardBg": "#ff444a26",
+        "categoryBg": "#ff444a33",
+        "font_color": "#FF444A"
+    },
+    {
+        "id": 11,
+        "image": "https://i.ibb.co/jLcHkS3/Rectangle-4287.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "description": "The Used Clothing Drive is a heartfelt initiative that embodies the spirit of generosity and sustainability. It involves collecting gently worn garments from individuals or communities and redistributing them to those in need. These drives not only provide clothing to individuals who may be struggling financially but also reduce textile waste and minimize the environmental impact of discarded clothing. They foster a sense of unity and empathy within communities, highlighting the power of collective goodwill. Through a Used Clothing Drive, we can extend a helping hand to those less fortunate while making a positive contribution to our planet by promoting the reuse of textiles.",
+        "price": 290,
+        "cardBg": "#79c23f26",
+        "categoryBg": "#79c23f33",
+        "font_color": "#79C23F"
+    },
+    {
+        "id": 12,
+        "image": "https://i.ibb.co/S0ktv3N/Rectangle-4287-2.png",
+        "category": "Food",
+        "title": "Better Food for Everyone",
+        "description": "The pursuit of 'Better Food for Everyone' is a mission that transcends mere sustenance. It's a commitment to nourishing bodies, minds, and communities alike. Access to wholesome, nutritious food should be a universal right, not a privilege. It's about addressing food insecurity, promoting sustainable agriculture, and ensuring that every individual, regardless of their socioeconomic background, has access to meals that foster health and well-being. This endeavor isn't just about satisfying hunger; it's about building healthier, more equitable societies where everyone can thrive and reach their full potential. It's a shared responsibility towards a brighter, more inclusive future.",
+        "price": 290,
+        "cardBg": "#f8714726",
+        "categoryBg": "#f8714733",
+        "font_color": "#F87147"
+    }
+]
