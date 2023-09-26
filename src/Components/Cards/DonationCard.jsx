@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const DonationCard = ({card}) => {
     return (
         <div className="w-full rounded-md overflow-hidden" style={{color: card.font_color, backgroundColor: card.cardBg}}>
-            <Link to={`/donation/${card.id}`}>
+            <Link to={`/donate/${card.id}`}>
                 <div className="h-48 overflow-hidden">
                     <img src={card.image} alt="" className="w-full h-full object-cover"/>
                 </div>
