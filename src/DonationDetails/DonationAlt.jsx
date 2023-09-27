@@ -1,64 +1,48 @@
-// import React from "react";
+import React from "react";
 import swal from 'sweetalert';
 
 const DonationAlt = ({donation}) => {
     const {id, image, category, title, description, price, cardBg, categoryBg, font_color} = donation || {}
 
+    let addedId = [];
 
-    // const addToDonation = () => {
-    //     const addedDonationsArr = [];
+    const addToDonation = () => {
+        console.log(donation);
 
-    //     const donatedSectors = JSON.parse(localStorage.getItem('donations'));
+        const addedDonationArr = [];
+        
+        const donationStorage = JSON.parse(localStorage.getItem('linkon'));
 
-    //     if(!donatedSectors) {
-    //         addedDonationsArr.push(donation);
-    //         localStorage.setItem('donations', JSON.stringify(addedDonationsArr));
-    //         swal("Good job!", "You clicked the button!", "success");
-    //     }
-    //     else {
-    //         const isExit = donatedSectors.find(donate => donate.id === id);
+        // addedDonationArr.push(donation);
 
-    //         if(isExit){
-    //             addedDonationsArr.push(...donatedSectors, donation);
-    //             localStorage.setItem('donations', JSON.stringify(addedDonationsArr));
+        if(!donationStorage) {
+            addedId.push(id);
+            addedDonationArr.push(donation)
+            localStorage.setItem('linkon', JSON.stringify(addedDonationArr));
+            console.log(donationStorage);
+        }
+        else {
+            const isExits = donationStorage.find(donate=>donate.id === id);
+            console.log(isExits);
 
-    //             swal("Good job!", "You clicked the button!", "success");
-    //         }
-    //         else {
-    //             swal("Good job!", "You clicked the button!", "success");
-    //         }
-    //     }
-    // }
+            if(!isExits) {
+                addedId.push(id);
+                addedDonationArr.push(...donationStorage, donation);
+                localStorage.setItem('linkon', JSON.stringify(addedDonationArr));
+            }
+            else {
+                alert("duplicate");
+            }
+        }
+
+    }
 
 
     return (
         <div>
             <div style={{backgroundImage: `url(${image})`}} className="w-11/12 h-[50rem] mx-auto mt-20 bg-cover bg-center flex flex-col justify-end rounded">
                 <div className="bg-[#0b0b0b80]">
-                    <button style={{backgroundColor: font_color}} className="my-8 ml-9 px-6 py-4 text-white rounded" onClick={() => {
-                        const addedDonationsArr = [];
-
-                        const donatedSectors = JSON.parse(localStorage.getItem('donations'));
-                
-                        if(!donatedSectors) {
-                            addedDonationsArr.push(donation);
-                            localStorage.setItem('donations', JSON.stringify(addedDonationsArr));
-                            swal("Good job!", "You clicked the button!", "success");
-                        }
-                        else {
-                            const isExit = donatedSectors.find(donate => donate.id === id);
-                
-                            if(isExit){
-                                addedDonationsArr.push(...donatedSectors, donation);
-                                localStorage.setItem('donations', JSON.stringify(addedDonationsArr));
-                
-                                swal("Good job!", "You clicked the button!", "success");
-                            }
-                            else {
-                                swal("Error!", "Duplicate entry!", "error");
-                            }
-                        }
-                    }}>Donate $290</button>
+                    <button style={{backgroundColor: font_color}} className="my-8 ml-9 px-6 py-4 text-white rounded" onClick={addToDonation}>Donate $290</button>
                 </div>
             </div>
             <div className="w-11/12 mx-auto my-14">
