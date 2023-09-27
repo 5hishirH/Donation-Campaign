@@ -33,7 +33,7 @@ const DonationAlt = ({donation}) => {
                 swal("Thank You", "For your donation", "success");
             }
             else {
-                swal("Thank You", "For your donation", "success");
+                swal("Already donated", "Please donate in another sector", "error");
             }
         }
 
