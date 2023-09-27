@@ -1,5 +1,5 @@
 import React from 'react';
-import { PieChart, Pie } from 'recharts';
+// import { PieChart, Pie } from 'recharts';
 
 const Statistics = () => {
     const donateData = JSON.parse(localStorage.getItem('linkon'));

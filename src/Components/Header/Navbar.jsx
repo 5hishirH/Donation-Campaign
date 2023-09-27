@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <section className="flex items-center justify-between pt-12 w-11/12 mx-auto">
+    <section className="flex flex-wrap items-center justify-between pt-12 w-11/12 mx-auto">
       <img src="/Logo.png" alt="Logo" className="h-16" />
-      <nav>
+      <nav className="mt-7 md:mt-0">
         <ul className="flex gap-12 text-lg">
           <li>
             <NavLink

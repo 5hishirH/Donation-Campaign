@@ -24,7 +24,7 @@ const Donation = () => {
         <div className="mt-20 w-11/12 mx-auto">
             {noFound ? <p>{noFound}</p> 
             :
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {
                     isShow ? donates.map(donate => <DonationCardAlt key={donate.id} donate={donate}></DonationCardAlt>)
                     : donates.slice(0,4).map(donate => <DonationCardAlt key={donate.id} donate={donate}></DonationCardAlt>)
@@ -34,7 +34,11 @@ const Donation = () => {
             {
                 donates.length > 4 ? 
                 <div className="flex justify-center my-10">
-                <button onClick={()=>setIsShow(!isShow)} className="mx-auto px-4 py-2 text-white bg-green-500 font-semibold rounded w-fit">See All</button>
+                <button onClick={()=>setIsShow(!isShow)} className="mx-auto px-4 py-2 text-white bg-green-500 font-semibold rounded w-fit">
+                    {
+                        isShow ? 'Show less' : 'Show All'
+                    }
+                </button>
             </div> : <div className="mb-10"></div>
             }
 
