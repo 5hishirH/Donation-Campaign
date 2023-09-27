@@ -20,6 +20,7 @@ const DonationAlt = ({donation}) => {
             addedDonationArr.push(donation)
             localStorage.setItem('linkon', JSON.stringify(addedDonationArr));
             console.log(donationStorage);
+            swal("Thank You", "For your donation", "success");
         }
         else {
             const isExits = donationStorage.find(donate=>donate.id === id);
@@ -29,9 +30,10 @@ const DonationAlt = ({donation}) => {
                 addedId.push(id);
                 addedDonationArr.push(...donationStorage, donation);
                 localStorage.setItem('linkon', JSON.stringify(addedDonationArr));
+                swal("Thank You", "For your donation", "success");
             }
             else {
-                alert("duplicate");
+                swal("Thank You", "For your donation", "success");
             }
         }
 
